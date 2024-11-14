@@ -42,7 +42,7 @@ while True:
     s.send(ip.encode())
     print("MAC Address",s.recv(1024).decode())
 ```
-## OUPUT - ARP
+## OUTPUT - ARP
 ### CLIENT
 ![image](https://github.com/Afsarjumail/2c.ARP_RARP_PROTOCOLS/assets/118343395/c78526fd-72aa-4148-8720-a434d59bb917)
 ### SERVER
@@ -74,7 +74,7 @@ while True:
  s.send(ip.encode())
  print("Logical Address",s.recv(1024).decode())
 ```
-## OUPUT -RARP
+## OUTPUT -RARP
 ### CLIENT
 ![image](https://github.com/Afsarjumail/2c.ARP_RARP_PROTOCOLS/assets/118343395/3fc4b1a3-600f-4955-8a36-0a6510b73c43)
 
